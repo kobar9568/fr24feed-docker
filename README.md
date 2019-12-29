@@ -63,14 +63,14 @@ dump1090-mutability_1.15~dev_amd64.deb  fr24feed  fr24feed.ini
 
 ## Usege
 
+### 1. Build Docker image
+
 ```
 $ utils/build_image.sh
 ```
 
-* Build Docker image.
+### 2. Create container and start data feeding
 
 ```
 $ utils/run.sh
 ```
-
-* Start container and data feeding.
