@@ -20,7 +20,7 @@ fr24feedをDockerコンテナで動かすやつ
 ### 1. config fr24feed.ini
 
 ```
-vi resources/fr24feed.ini
+$ vi resources/fr24feed.ini
 ```
 
 * このファイルにはfr24feedの設定の一部が含まれている
@@ -63,8 +63,14 @@ dump1090-mutability_1.15~dev_amd64.deb  fr24feed  fr24feed.ini
 
 ## Usege
 
+### 1. Build Docker image
+
 ```
-utils/run.sh
+$ utils/build_image.sh
 ```
 
-* start container and data feeding.
+### 2. Create container and start data feeding
+
+```
+$ utils/run.sh
+```
