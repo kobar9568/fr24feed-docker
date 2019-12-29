@@ -61,25 +61,6 @@ dump1090-mutability_1.15~dev_amd64.deb  fr24feed  fr24feed.ini
 * fr24feed 1.0.18-5 binary
 * fr24feed.ini config file
 
-### 5. check and set dongle bus
-
-```
-$ lsusb | grep "Realtek Semiconductor Corp. RTL2838 DVB-T"
-Bus 001 Device 007: ID 0bda:2838 Realtek Semiconductor Corp. RTL2838 DVB-T
-```
-
-* check dongle bus No. and Device No.
-
-```
-$ vi utils/run.sh
-```
-
-```
-DONGLE_BUS="001/007"
-```
-
-* Insert bus No. and Device No.
-
 ## Usege
 
 ```
