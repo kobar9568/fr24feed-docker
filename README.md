@@ -17,7 +17,7 @@ fr24feedをDockerコンテナで動かすやつ
 
 ## Installation
 
-### 1. config fr24feed.ini
+### 1. Configure fr24feed.ini
 
 ```
 $ vi resources/fr24feed.ini
@@ -39,18 +39,18 @@ fr24key="example1549example"
 
 * example
 
-### 2. prepare dump1090-mutability deb package
+### 2. Prepare dump1090-mutability deb package
 
 * Built dump1090-mutability 1.15~dev deb package
 * Install in `resources/`
 
-### 3. prepare fr24feed
+### 3. Prepare fr24feed binary
 
 * fr24feed 1.0.18-5 binary
 * Install in `resources/`
 * [link](http://feed.flightradar24.com/linux/fr24feed_1.0.18-5_amd64.tgz)
 
-### 4. chack necessary files
+### 4. Check necessary files
 
 ```
 $ ls resources/
