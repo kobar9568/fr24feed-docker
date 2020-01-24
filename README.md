@@ -72,5 +72,5 @@ $ utils/build_image.sh
 ### 2. Create container and start data feeding
 
 ```
-$ utils/run.sh
+$ utils/create_container.sh
 ```
