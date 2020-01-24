@@ -1,5 +1,3 @@
 #!/bin/sh
 
-TAG="1.0"
-
-docker run --name fr24feed -d -p 8754:8754 -p 30002:30002 -p 30003:30003 --device=/dev/bus/usb -it fr24feed:${TAG}
+docker run --name fr24feed -d -p 8754:8754 -p 30002:30002 -p 30003:30003 --device=/dev/bus/usb -it kobar9568/fr24feed:latest
