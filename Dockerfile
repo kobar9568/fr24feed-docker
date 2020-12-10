@@ -8,9 +8,9 @@ COPY resources/fr24feed /usr/bin/fr24feed
 COPY resources/fr24feed.ini /etc/fr24feed.ini
 
 # Install deb package and various prepare.
-RUN apt update && \
-    apt install -y --no-install-recommends /tmp/dump1090-mutability_1.15~dev_amd64.deb && \
-    apt -y clean && \
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends /tmp/dump1090-mutability_1.15~dev_amd64.deb && \
+    apt-get -y clean && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/dump1090-mutability_1.15~dev_amd64.deb && \
     mkdir /usr/lib/fr24/ && \
