@@ -63,6 +63,12 @@ dump1090-mutability_1.15~dev_amd64.deb  fr24feed  fr24feed.ini
 
 ## Usege
 
+### docker-compose (recommended)
+
+```
+$ docker-compose up -d
+```
+
 ### 1. Build Docker image
 
 ```
